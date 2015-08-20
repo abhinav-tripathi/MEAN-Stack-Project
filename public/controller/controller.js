@@ -17,7 +17,6 @@ $scope.addContact = function(){
 
 $scope.remove = function(id){
   $http.delete('/contactlist/'+id).success(function(res){
-    console.log(res);
     refresh();
   });
 }
