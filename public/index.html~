@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html ng-app>
+<head>
+<title>Contact List</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+
+
+<div class="container">
+<h1>contact list app</h1>
+<input ng-model="text">
+{{text}}
+
+<table class="table">
+<thead>
+	<th>Name</th>
+	<th>Email</th>
+	<th>Number</th>
+</thead>
+</table>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+
+
+</body>
+</html>
